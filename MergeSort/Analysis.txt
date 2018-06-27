@@ -1,0 +1,18 @@
+
+Merge sort is a stable sort which uses divide and conquer technique, and the same time complexities in both its worst and best cases.
+The number of iterations in best case is almost half that of in worst case.
+The merge() function runs in O(n) for n elements and mergesort() function runs in O(nlogn) time.
+ 
+
+The asymptotic running time is somewhere between O(nlogn) and O(nlogn).(Both worst and best cases have a time complexity of nlogn,although the best case results in about half of the iterations as compared to that of the worst case.)
+
+This can be seen in the results as doubling the input results in approximately...
+
+	Input size		Time
+
+	 1000000		790.12ms
+	 2000000		1617.78ms
+	 4000000		2675.72ms
+	 8000000		4565.76ms
+	 16000000		7250.37ms
+	 32000000		11131.47ms
